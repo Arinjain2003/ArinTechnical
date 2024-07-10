@@ -1,5 +1,5 @@
 const User = require("../models/user_model");
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 const { use } = require("../router/auth-router");
 
 // HOME PAGE
